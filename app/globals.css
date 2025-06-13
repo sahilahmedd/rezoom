@@ -156,6 +156,12 @@
   }
 }
 
+@layer components {
+  .gradient {
+    @apply bg-gradient-to-b from-gray-400 via-gray-200 to-gray-600;
+  }
+}
+
 
 .hero-image-wrapper {
   perspective: 1000px;
